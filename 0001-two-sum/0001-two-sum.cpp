@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // O(n) time and space
     vector<int> twoSum(vector<int>& nums, int target) {
         
         // hashmap in C++
@@ -16,10 +17,10 @@ public:
             }
         }
         
-        // printing the map
-        for (const auto& pair : map) {
-            std::cout << "Key: " << pair.first << ", Value: " << pair.second << std::endl;
-        }
+        // printing the map, commented out to improve runtime
+        // for (const auto& pair : map) {
+        //     std::cout << "Key: " << pair.first << ", Value: " << pair.second << std::endl;
+        // }
 
         // default
         return {-1, -1};
