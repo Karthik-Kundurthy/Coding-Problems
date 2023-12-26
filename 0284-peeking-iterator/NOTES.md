@@ -1,8 +1,8 @@
-Reviewing classes and derived classes in C++ as well as design questions<br>
+Reviewing classes and derived classes in C++ as well as design questions<br><br>
 ​
-Got this problem in January 2023, Apple interview<br>
+Got this problem in January 2023, Apple interview<br><br>
 ​
-Key point is that you have to advance the pointer to peek. BUT, you have to maintain an appearance that you have not done so until next() is called again, in which case you "reset"<br>
+Key point is that you have to advance the pointer to peek. BUT, you have to maintain an appearance that you have not done so until next() is called again, in which case you "reset"<br><br>
 ​
 Ex) **peek()**, hasNext()...peek()...peek()...hasNext(), **next()**<br><br>
 ​
