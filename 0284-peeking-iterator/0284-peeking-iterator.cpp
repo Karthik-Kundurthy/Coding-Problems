@@ -55,13 +55,13 @@ public:
         // peek was not called before next()
 	    if (!flag) {
             val = Iterator::next();
-            std::cout << val << std::endl;
+            // std::cout << val << std::endl;
             // normal next() operation, 
             return val;
         } else { 
             // if peek was called then we cannot advance the pointer
             flag = false;
-            std::cout << "hello: " << val << std::endl;
+            // std::cout << "hello: " << val << std::endl;
             return val;
         }
         
