@@ -27,6 +27,7 @@ public:
             }
         }
         
+        // there should not be anything left in the stack!
         return stack.empty();
         
         
