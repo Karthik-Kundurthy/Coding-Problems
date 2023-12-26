@@ -33,8 +33,10 @@ public:
             b = b -> next;
         }
         
+        // remove
         a -> next = a -> next -> next;
         
+        // edge case of head removal, can't just return head
         return dummy -> next;
         
     }
