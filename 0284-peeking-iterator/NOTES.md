@@ -12,7 +12,6 @@ We have to ensure that we: <br><br>
 * store the expected hasNext() value in *bool expected* before advancing the pointer in peek()
 * And once we have called next() in peek we have to store this next value in *int val* to refer to in nonbolded peek() and the bolded next() <br><br>
 ​
-​
 All operations run in **O(1)** time.
 ​
 ​
