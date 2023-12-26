@@ -6,7 +6,7 @@ Key point is that you have to advance the pointer to peek. BUT, you have to main
 ​
 Ex) **peek()**, hasNext()...peek()...peek()...hasNext(), **next()**<br><br>
 ​
-We have to ensure that we: <br><br>
+We have to ensure that we: <br>
 ​
 * set a flag, *bool flag* during the nonbolded states, indicating we *use cached states instead of manipulating the pointer*.
 * store the expected hasNext() value in *bool expected* before advancing the pointer in peek()
