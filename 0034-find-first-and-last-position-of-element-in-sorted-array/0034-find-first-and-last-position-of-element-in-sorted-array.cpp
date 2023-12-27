@@ -5,7 +5,7 @@ public:
     //binary search solution
     vector<int> searchRange(vector<int>& nums, int target) {
         int idx = binarySearch(nums, target, 0, nums.size() - 1);
-        std::cout << idx << std::endl;
+        // std::cout << idx << std::endl;
         vector<int> ret;
         ret.push_back(-1);
         ret.push_back(-1);
