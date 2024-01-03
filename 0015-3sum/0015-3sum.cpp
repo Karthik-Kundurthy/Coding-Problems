@@ -17,7 +17,7 @@ public:
     };
 
     
-    
+    // overall time complexity, sorting, iterating through n elements, for each element doing another O(n) operation to get all pairs -> O(n^2) 
     vector<vector<int>> threeSum(vector<int>& nums) {
        
         // global array passed to every two sum invocation
@@ -35,7 +35,7 @@ public:
         std::copy(nums.begin(), nums.end(), std::ostream_iterator<int>(std::cout, " "));
         std::cout << std::endl;
         
-        // iterate
+        // iterate, skip outer loop duplicates
         for (int i = 0; i < nums.size(); i++) {
             if (i == 0 || nums[i] != nums[i - 1]) {
                 twoSum(nums, -nums[i], triplets, i);  
